@@ -305,7 +305,6 @@ function ProductList() {
                         <a href="#" onClick={(e) => handleCartClick(e)} style={styleA}>
                             
                             <h1 className='cart'>
-                                {/* <label style={{zIndex:1,position:"fixed",fontSize:"1.5rem",cursor:"pointer"}}></label> */}
                                 <label className="cart_quantity_count">{calculateTotalCartItems()}</label>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="IconChangeColor" height="68" width="68">
                                     <rect width="156" height="156" fill="none"></rect>                                    
