@@ -3,7 +3,9 @@ import { createSlice } from '@reduxjs/toolkit';
 export const CartSlice = createSlice({
   name: 'cart',
   initialState: {
-    items: [], // Initialize items as an empty array
+    // Initialize items as an empty array
+    items:  []
+    
   },
   reducers: {
     addItem: (state, action) => {
